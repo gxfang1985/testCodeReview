@@ -3,8 +3,11 @@ $x=5;
 
 function myTest($x)
 {
-  echo $y;
+  echo $y + $x['name'];
 }
 
-myTest($x);
+myTest($a);
+
+$query = "select * from" .$_GET['input'];
+$result = mysqli_query($query);
 
