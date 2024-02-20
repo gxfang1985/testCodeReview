@@ -3,7 +3,7 @@ $x=5;
 
 function myTest($x)
 {
-  echo $x[0];
+  echo $y;
 }
 
 myTest($x);
