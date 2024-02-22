@@ -13,4 +13,6 @@ $result = mysqli_query($query);
 
 echo 'test1';
 
-echo 'test1-add
+echo 'test1-add';
+
+echo 'test1-add-new-line';
